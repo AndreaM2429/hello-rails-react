@@ -4,5 +4,10 @@ Rails.application.routes.draw do
 
   root 'root#index'
 
+  # Api endpoints
+  namespace :api do
+    resources :greetings, only: [:index]
+  end
+
   # get "up" => "rails/health#show", as: :rails_health_check
 end
