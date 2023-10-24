@@ -86,6 +86,8 @@
 
 - **Storage, reducers and slice to manage state and fetch API information**
 
+- **API documentation**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,6 +131,8 @@ After that run the following commands to create the database and start the app:
   ./bin/dev
 ```
 Navigate to http://localhost:3000 and check the random greeting you got.
+
+To see the API documentation with the server active follow [this link](http://localhost:3000/api-docs/index.html).
 
 To check the linters you can use the commands:
 

@@ -12,11 +12,11 @@ RSpec.describe 'API greeting get', type: :request do
           Greeting.create(id: rand(15..100_000), text: 'Greet 4')
           Greeting.create(id: rand(15..100_000), text: 'Greet 5')
           schema type: :object,
-                   properties: {
-                     id: { type: :integer },
-                     text: { type: :string }
-                   },
-                   required: %w[id text]
+                 properties: {
+                   id: { type: :integer },
+                   text: { type: :string }
+                 },
+                 required: %w[id text]
           run_test!
         end
       end
