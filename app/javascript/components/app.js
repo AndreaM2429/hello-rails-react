@@ -12,9 +12,11 @@ function App() {
   }, [dispatch]);
 
 
-  return (<main>
-      <Greeting/>
-    </main>);
+  return (
+    <Routes>
+      <Route path="/" element={<Greeting/>} />
+    </Routes>
+  );
 }
 
 export default App;
